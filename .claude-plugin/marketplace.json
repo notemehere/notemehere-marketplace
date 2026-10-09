@@ -1,0 +1,23 @@
+{
+  "name": "notemehere",
+  "owner": {
+    "name": "notemehere",
+    "url": "https://github.com/notemehere"
+  },
+  "metadata": {
+    "description": "Plugins for NoteMeHere, a personal Notion replacement with an MCP server: capture, find and edit your pages from the agent you already use. Installable in Claude Code and Codex CLI.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "notemehere",
+      "source": {
+        "source": "github",
+        "repo": "notemehere/notemehere-plugin"
+      },
+      "description": "The NoteMeHere MCP server plus two skills: capture a thought, decision or meeting notes into the right page, and find and read pages back. Connection is approved in your browser, no keys to paste.",
+      "category": "productivity",
+      "tags": ["notes", "notion", "mcp", "knowledge-base"]
+    }
+  ]
+}
